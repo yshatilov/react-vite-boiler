@@ -1,0 +1,86 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "npm install",
+      "name": "Install Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "setup": {
+      "name": "setup",
+      "command": "npm run setup"
+    },
+    "format": {
+      "name": "format",
+      "command": "npm run format"
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint"
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "npm run lint:fix"
+    },
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "storybook": {
+      "name": "storybook",
+      "command": "npm run storybook"
+    },
+    "storybook:setup": {
+      "name": "storybook:setup",
+      "command": "npm run storybook:setup"
+    },
+    "storybook:build": {
+      "name": "storybook:build",
+      "command": "npm run storybook:build"
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test"
+    },
+    "test:unit": {
+      "name": "test:unit",
+      "command": "npm run test:unit"
+    },
+    "test:unit:coverage": {
+      "name": "test:unit:coverage",
+      "command": "npm run test:unit:coverage"
+    },
+    "test:e2e": {
+      "name": "test:e2e",
+      "command": "npm run test:e2e"
+    },
+    "test:e2e:report": {
+      "name": "test:e2e:report",
+      "command": "npm run test:e2e:report"
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build"
+    },
+    "preview": {
+      "name": "preview",
+      "command": "npm run preview"
+    },
+    "commitlint": {
+      "name": "commitlint",
+      "command": "npm run commitlint"
+    },
+    "commitizen": {
+      "name": "commitizen",
+      "command": "npm run commitizen"
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare"
+    }
+  }
+}
